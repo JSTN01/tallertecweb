@@ -4,45 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
-    <style>
-        nav{
-            background-color: beige;
-            display: inline-block;
-            padding-left: 5px;
-            padding-right: 5px;
-            padding-block: 10px;
-        }
-        label{
-            padding:0px 20px;
-        }
-        body{
-            background-color:lightblue;
-        }
-        p{
-            font-size: 20px;
-            text-align: justify;
-        }
-        .tema{
-            font-size: 33px;
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" href="estilos.css" />
+    
 </head>
-<body >
+<body id="primercolor">
     <header>
         <section>
-            <img src="img/logo.png" alt="tecnologias" width="100px"/>
-            <h1 class="tema" >Taller</h1>
-            <nav>
-		        <label> <a href="pripag.html">Ventajas</a> </label> 
-		        <label><a href="segpag.html">Tecnologías Web Sociedad</a>   </label>
-		        <label><a href="terpag.html">Tecnologías Web Negocios</a>   </label>
+            <img id="logo" src="img/logo.png" alt="tecnologias" />
+            <h1>Taller</h1> 
+
+            <nav id="panel"> 
+		        <label class="pag"> <a href="pripag.html">Ventajas</a> </label> 
+		        <label class="pag"><a href="segpag.html">Tecnologías Web Sociedad</a>   </label>
+		        <label class="pag"><a href="terpag.html">Tecnologías Web Negocios</a>   </label>|
 	        </nav> 
         </section>
     </header>
     
     <section> 
-        <h1 class="tema" >Tecnologías Web</h1>
+        <h1 >Tecnologías Web</h1>
         <p>En la actualidad, han existido varios avances tecnológicos. Uno de ellos son las Tecnologías Web que, mediante su evolución, se ha logrado mejorar gran parte del contenido que encontramos en línea. <br>
             Estas mejoras se evidencian de muchas maneras y en diferentes sectores de ámbito púbico, ayudando en la interactividad de un usuario y sitio web. 
         </p>
@@ -52,37 +32,38 @@
         <h2>Ejemplos de tecnologías web</h2>
         <p>Actualmente existen tres tecnologías web, las cuales son las más conocidas y prácticamente manejan toda la web.<br>
         ¿Quiénes son? Pues estamos hablando de HTML, CSS y JavaScript.</p>
-        <br> <br>
-        <h3>Hoy en día las tecnologías web han evolucionado de forma constante, ofreciendo grandes ventajas a sus usuarios.</h3>
-        <center><img src="img/tecweb.png" alt="tecnologias" width="30%"/></center>
-        <h4>Enfatizamos que las tecnologías web se ejecutan en cualquier explorador de internet permitiendo al usuario trabajar en cualquier sistema operativo.</h4 >
+        <br>
+        <p>Hoy en día las tecnologías web han evolucionado de forma constante, ofreciendo grandes ventajas a sus usuarios.</p>
+        <div class="centerimg">
+            <img class="imgtext" src="img/tecweb.png" alt="tecnologias" />
+        </div>
+
+        <h5>Enfatizamos que las tecnologías web se ejecutan en cualquier explorador de internet permitiendo al usuario trabajar en cualquier sistema operativo.</h5>
         <br> <br>
         <p>La web ha tenido varias versiones a lo largo de su historia, y hoy en día disponemos de una versión llamada “Web 3.0”, le invito a revisar este video informativo acerca de esta versión de la web. </p>
-        <center>
-            <iframe width="500px" height="400px" src="https://www.youtube.com/embed/Zc5zvAOQ0S8?si=p4PVotGKWDMc652v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </center>
-        <p>Derechos de autor: 
+        <div class="centerimg">
+            <iframe src="https://www.youtube.com/embed/Zc5zvAOQ0S8?si=p4PVotGKWDMc652v" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <h5>Derechos de autor: 
             CryptoRobin. (2021, November 18). ¿Qué es la Web 3.0? ¿Cómo funciona? | Explicación fácil en español [Video]. YouTube. https://www.youtube.com/watch?v=Zc5zvAOQ0S8
-            </p>
+        </h5>
         <br> <br>
 
 
 
-        <form>
+        <form class="border">
             <div>
-                <h2>Para más información llenar este formulario</h2>
-                <h3> Ingresar nombre: </h3> 
+                <h2>Para más información llenar este formulario  ↓</h2>
+                <h4> Ingresar nombre: </h4> 
                     <input type="text" size="20">
-                <h3> Ingresar apellido </h3> 
+                <h4> Ingresar apellido: </h4> 
                     <input type="text" size="20">
-            <br> <br>
-            Escriba su número o correo de contacto
-            <br> <br>
-            <input type="text" size="20">
-            <br><br>
-            <input type="submit" value="Enviar">
+                <h4> Escriba su número o correo de contacto: </h4>
+                <input type="text" size="20">
+                <br><br> <br>
+             <input type="submit" value="Enviar">
+             <br><br>
             </div>
-        <br>
         </form>
         
     </section>    
