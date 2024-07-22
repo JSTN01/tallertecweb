@@ -13,7 +13,19 @@
 
     }   
 
+    h4{
+        font-size: 150%;
+
+    }
+
+    .botones{
+        width: 30%;
+    }
     
+    #botfin{
+        width: 20%;
+    }
+
     p{
         font-size: 150%;
         text-align: justify;
@@ -82,20 +94,20 @@
     }
 
     #primercolor{
-        background-color:lightblue;
+        background-color:rgb(203, 232, 241);
     }
     
     
     #segundocolor{
-        background-color:lightpink;
+        background-color:rgb(241, 206, 211);
     }   
 
     #tercercolor{
-        background-color:lightslategray;
+        background-color:rgb(196, 209, 221);
     }
 
     #cuartocolor{
-        background-color:lightgreen;
+        background-color:rgb(178, 231, 178);
     }
  
     .centerimg{
@@ -135,6 +147,11 @@
         padding-block: 20px;      
           
 
+    }
+    
+    li{
+        width: 80%;
+        font-size: 90%; 
     }
 
     .border{
